@@ -1,13 +1,10 @@
 import { Button } from '@nextui-org/react';
 import type { NextPage } from 'next';
 import { UserLayout } from '../components/layout/UserLayout';
+import Login from './auth/login';
 
 const Home: NextPage = () => {
-	return (
-		<UserLayout title="Laboratorio Blancarte">
-			<></>
-		</UserLayout>
-	);
+	return <Login />;
 };
 
 export default Home;
